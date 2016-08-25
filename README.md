@@ -19,7 +19,7 @@ require_once "$IP/extensions/imgur.php";
 <imgur>XXXOOOO</imgur>
 <imgur float="right" width="600" comment="This is a comment">XXXOOOO</imgur>
 ```
-* Put the imgur ID in the `<imgur>` tag.
+* Put the imgur ID(without filename extension) in the `<imgur>` tag.
 * There are three attribute in this extension
     * flaot, image position, default is right.
     * width, image size in px, default is 320.
